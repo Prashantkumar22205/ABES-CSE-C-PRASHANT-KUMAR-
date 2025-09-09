@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav{
+            height: 50px;
+            width: 100%;
+            margin-top: 10px;
+            /* border: 2px solid; */
+            display: grid;
+              grid-template-columns: auto auto auto auto auto;
+        }
+
+      
+
+        button{
+            border: none;
+            padding: 10px;
+            font-size: 15px;
+            background-color:white;
+        }
+
+        .search{
+            height: 30px;
+            width: 500px;
+            margin-top: 10px;
+            background-image: url();
+            mask-repeat: no-repeat;
+        }
+
+        .page2{
+            height: 500px;
+             width: 100%;
+            background-color: rgba(200, 197, 197, 0.579);
+            position: relative;
+        }
+
+
+        .card{
+            height: 150px;
+            width: 98%;
+            margin-top: 10px;
+            margin-left: 10px;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            /* padding: 10px 100px; */
+           position: absolute;
+        }
+
+        .subcard{
+            padding:10px 40px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+
+        }
+        .subcard img{
+            height: 70px;
+            margin-bottom: 5px;
+          
+        }
+        .subcard label{
+            font-size: 12px;
+            font-family:  Arial, sans-serif;;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="">
+         <input  class="search" type="search" name="" id="" placeholder="search" >
+        
+        
+         <button>Login</button>
+         <button>Cart</button>
+         <button>Become a seller</button>
+    </div>
+
+    <div class="page2">
+
+        <div class="card">
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/e00302d428f5c7be.png?q=100" alt="">
+                <label for="">Minutes</label>
+               </div>
+
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/5f2ee7f883cdb774.png?q=100" alt="">
+                 <label for="">Mobile & Tablets</label>
+               </div>
+
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/ff559cb9d803d424.png?q=100" alt="">
+                <label for="">Fashion</label>
+               </div>
+               <div class="subcard"> 
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/af646c36d74c4be9.png?q=100" alt="">
+                <label for="">Electronics</label>
+               </div>
+
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/1788f177649e6991.png?q=100" alt="">
+                <label for="">Home & Furniture</label>
+               </div>
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/e90944802d996756.jpg?q=100" alt="">
+                <label for="">TVs & Appliances</label>
+               </div>
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/3c647c2e0d937dc5.png?q=100" alt="">
+                <label for="">Flight Bookings</label>
+               </div>
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/b3020c99672953b9.png?q=100" alt="">
+                <label for="">Beauty, Food..</label>
+               </div>
+               <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/e730a834ad950bae.png?q=100" alt="">
+                <label for="">Grocery</label>
+               </div>
+        </div>
+
+    </div>
+</body>
+</html>
