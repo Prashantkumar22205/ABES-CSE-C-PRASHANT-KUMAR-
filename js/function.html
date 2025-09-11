@@ -4,28 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #adi{
+            height: 200px;
+            width: 200px;
+            border: 5px solid rebeccapurple;
+            background-color: rebeccapurple;
+           
+        }
+    </style>
 </head>
 <body>
-   
+   <div id="adi">
+      <button onclick="ad()">click</button>
+      <p id="p"></p>
+   </div>
     <script>
+       
+       function ad(){
+         document.getElementById("p").innerHTML = "hello";
+       }
+
         // function abes(){
         //     document.write("we are the student of abes")
         // }
 
         // abes();
 
-        function add(a,b){
-            var c = a+b;
-            document.write(c);
-        }
+        // function add(a,b){
+        //     var c = a+b;
+        //     document.write(c);
+        // }
         
-        function sub(a,b){
-            var d = a-b;
-            document.write(d);
-        }
+        // function sub(a,b){
+        //     var d = a-b;
+        //     document.write(d);
+        // }
 
-        add(5,7);
-        sub(9,1);
+        // add(5,7);
+        // sub(9,1);
     </script>
 </body>
 </html>
