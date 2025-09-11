@@ -5,25 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #adi{
+        /* #adi{
             height: 200px;
             width: 200px;
             border: 5px solid rebeccapurple;
             background-color: rebeccapurple;
            
-        }
+        } */
+
+       
+        
     </style>
 </head>
-<body>
-   <div id="adi">
+<body id="do">
+
+    <button  onclick="red()">red</button>
+    <button onclick="green()">green</button>
+    <button onclick="blue()">blue</button>
+   <!-- <div id="adi">
       <button onclick="ad()">click</button>
       <p id="p"></p>
-   </div>
+   </div> -->
+
     <script>
        
-       function ad(){
-         document.getElementById("p").innerHTML = "hello";
-       }
+       
+       function red(){
+         document.getElementById("do").style.backgroundColor = "red";  
+         
+
+
+            }
+       function green(){
+         document.getElementById("do").style.backgroundColor = "green";       }
+       function blue(){
+         document.getElementById("do").style.backgroundColor = "blue";       }
+    //    function ad(){
+    //      document.getElementById("p").innerHTML = "hello";
+    //    }
 
         // function abes(){
         //     document.write("we are the student of abes")
