@@ -147,6 +147,7 @@
           
                 <button id="add" onclick="add()">+</button>
            
+        
             
                 <button id="sub" onclick="sub()">-</button>
             
@@ -174,20 +175,20 @@
     <script>
         var count =0;
         function add(){
-            count += 1; 
             if(count > 10){
                 alert("10 is the max value");
             }
             else{
+            count += 1; 
          document.getElementById("v").innerHTML= count;}
 
         }
         function sub(){
-            count -= 1; 
              if(count < 0){
                 alert("0 is the min value");
             }
             else{
+            count -= 1; 
          document.getElementById("v").innerHTML= count;}
 
         }
