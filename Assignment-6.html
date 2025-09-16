@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="number" name="" id="a"> -->
+    <!-- <input type="number" name="" id="b"> -->
+
+    <script>
+
+        var a=3;
+        var b=2;
+         var i=1;
+        while(i<=10){
+            document.write(`${a*i} <br>`);
+            i++;
+        }
+         
+           var j=1;
+        while(j<=10){
+            document.write(`${b*j} <br>`);
+            j++;
+        }
+
+        document.write(`even:`)
+        var c=1;
+         while(c<=10){
+            
+            if((a*c)%2 === 0){
+              document.write(` ${a*c} `);
+            }
+            if((b*c)%2 ===0){
+               document.write(` ${b*c} `); 
+            }
+            c++;
+        }
+
+
+         document.write(`<br>odd:`)
+        var c=1;
+         while(c<=10){
+            
+            if((a*c)%2 !== 0){
+              document.write(` ${a*c} `);
+            }
+            if((b*c)%2 !==0){
+               document.write(` ${b*c} `); 
+            }
+            c++;
+        }
+        
+
+    </script>
+</body>
+</html>
