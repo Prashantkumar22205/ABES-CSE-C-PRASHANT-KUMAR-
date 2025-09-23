@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .main{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .resuma{
+            height:  500px;
+            width: 30%;
+            border: 2px solid;
+            margin: 40px;
+        }
+
+        .resuma img {
+            height: 50px;
+            width: 50px;
+            border: 2px solid;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        .in{
+            height:  500px;
+            width: 30%;
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="resuma">
+            <div>
+            <img src="" alt="">
+            <p id="name"></p>
+            </div>
+            <h1>Know Language</h1>
+            <p id="a1"></p>
+            <p id="a2"></p>
+            <p id="a3"></p>
+        </div>
+        <div class="in">
+          <label for="name">Your Name</label>
+          <input type="text" name="" id="n">
+
+          <h1>Know Language</h1>
+
+          <input type="text" name="" id="l1">
+          <input type="text" name="" id="l2">
+          <input type="text" name="" id="l3">
+
+          <button id="sumbit" onclick="input()">sumbit</button>
+        
+        </div>
+    </div>
+
+    <script>
+               let name = document.getElementById( "n");
+               let l1 = document.getElementById( "l1");
+               let l2 = document.getElementById( "l2");
+               let l3 = document.getElementById( "l3");
+               let t = document.getElementById( "name");
+               let a1 = document.getElementById( "a1");
+               let a2= document.getElementById( "a2");
+               let a3= document.getElementById( "a3");
+
+                function input(){
+                    
+                    let value1 = name.value;
+                    t.textContent=value1;
+                    let value2 =l1.value;
+                    a1.textContent = value2
+                    let value3 =l2.value;
+                    a2.textContent = value3
+                    let value4 =l3.value;
+                    a3.textContent = value4
+                }
+    </script>
+</body>
+</html>
