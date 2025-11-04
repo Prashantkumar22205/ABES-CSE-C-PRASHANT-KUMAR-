@@ -7,16 +7,28 @@ import Button1 from './components/Button1';
 import Card1 from './components/Card1';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
+import Card2 from './components/Card2';
+import Comp2 from './components/Comp2';
+import Comp3 from './components/Comp3';
+import Comp4 from './components/Comp4';
+import Counter from './components/Counter';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <h1>hi student</h1>
-    <Navbar/>
-     <Button1/> 
-     <Card1/>
+    <div className='page'>
+    {/* <Navbar name='FastTast'/>
+    <Comp2/>
+    <div className='boxes'>
+      <Comp3/>
+      <Comp3/>
+      <Comp3/>
+    </div>
+    <Comp4/> */}
+  
+     <Counter/>
+     
     </div>
   )
 }

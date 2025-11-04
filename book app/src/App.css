@@ -1,0 +1,32 @@
+
+#book{
+  height: 300px;
+  width: 600px;
+  border: 2px solid black;
+  display: flex;
+  background-color: antiquewhite;
+
+}
+
+.card{
+   height: 300px ;
+   width:400px ;
+  border: 1px solid black;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.card h1{
+  font-size: 20px;
+}
+
+.nav{
+  height: 50px;
+  width: 100%;
+  background-color: antiquewhite;
+  
+}

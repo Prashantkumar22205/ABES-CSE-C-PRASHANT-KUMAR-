@@ -1,0 +1,42 @@
+
+.card2{
+    border: 2px solid blue;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.box1{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+ 
+}
+
+.box1 .pizza{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.address{
+    height: 100px;
+    width: 600px;
+    border: 2px solid rgb(78, 77, 77);
+     border-radius: 10px;
+}
