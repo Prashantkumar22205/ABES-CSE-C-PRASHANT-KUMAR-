@@ -16,11 +16,11 @@ const Book = (props) => {
       <h1>Price:{props.price}</h1>
 
 
-<div>
-   <button  onClick={increment}> +</button>
+    <div>
+      <button  onClick={increment}> +</button>
       <span >{count}</span>
       <button onClick={decrement}>-</button>
-      </div>
+    </div>
       
     </div>
   )
